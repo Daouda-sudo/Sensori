@@ -1,11 +1,28 @@
 public class Sensori {
-    private int latitudine;
-    private int longitudine;
-    private String ip;
+    private Sensore[] sensori;
+    private int dim;
 
-    public Sensori(int latitudine, int longitudine, String ip){
-        this.latitudine=latitudine;
-        this.longitudine=longitudine;
-        this.ip=ip;
+    //costruttore
+    public Sensori() {
+        dim = 0;
+        sensori = new Sensore[10];
+    }
+
+    // metodo aggiungi
+    public void aggiungi(Sensore a) {
+        sensori[dim] = a;
+        dim = dim + 1;
+    }
+    //metodo ricerca
+     //
+    //metodo cancellazione
+    //metodo per visulaiizzare i sensori
+    public String toString(){
+        String b="";
+        for(int i=0; i<dim; i++){
+            b=b+sensori[i];
+
+        }
+        return b;
     }
 }
