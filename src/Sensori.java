@@ -1,7 +1,8 @@
 public class Sensori {
     private Sensore[] sensori;
     private int dim;
-
+    private String ipDaTrovare;
+    private String ipDaEliminare;
     //costruttore
     public Sensori() {
         dim = 0;
@@ -14,7 +15,9 @@ public class Sensori {
         dim = dim + 1;
     }
     //metodo ricerca
-     //
+     public Sensore trovaSensore(String ipDaTrovare){
+        for()
+     }
     //metodo cancellazione
     public void eliminaSensore(String ip){
     if
