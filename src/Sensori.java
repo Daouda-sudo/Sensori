@@ -16,6 +16,9 @@ public class Sensori {
     //metodo ricerca
      //
     //metodo cancellazione
+    public void eliminaSensore(String ip){
+    if
+    }
     //metodo per visulaiizzare i sensori
     public String toString(){
         String b="";
@@ -25,4 +28,5 @@ public class Sensori {
         }
         return b;
     }
+
 }
