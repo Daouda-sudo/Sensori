@@ -16,7 +16,12 @@ public class Sensori {
     }
     //metodo ricerca
      public Sensore trovaSensore(String ipDaTrovare){
-        for()
+        for(int i=0; i<dim;i++){
+            if (sensori[i].getIp().equals((ipDaTrovare))){
+                break;
+            }
+            return
+        }
      }
     //metodo cancellazione
     public void eliminaSensore(String ip){

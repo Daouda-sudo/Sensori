@@ -10,7 +10,7 @@ public class Sensore {
       this.sostituzioneBatteria=sostituzioneBatteria;
       this.ultimaSostituzioneBatteria=ultimaSostituzioneBatteria;
     }
-    //metodi get e set
+    //metodi get e set UwU
 
     public String getIp() {
         return ip;
